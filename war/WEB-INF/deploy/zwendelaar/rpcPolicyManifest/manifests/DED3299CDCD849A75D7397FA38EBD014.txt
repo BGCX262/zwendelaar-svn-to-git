@@ -1,0 +1,2 @@
+serviceClass: zwendelaar.client.GreetingService
+path: 5108B0BF299C857CE5E79534535F4CA8.gwt.rpc

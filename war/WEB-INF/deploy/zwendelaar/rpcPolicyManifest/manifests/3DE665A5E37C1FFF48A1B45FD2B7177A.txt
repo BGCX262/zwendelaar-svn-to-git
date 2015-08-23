@@ -1,0 +1,2 @@
+serviceClass: zwendelaar.client.ZwendelaarService
+path: 08FF3C9BCB4A5228FC55379F4B69D85D.gwt.rpc

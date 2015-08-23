@@ -1,0 +1,452 @@
+/* Reset */
+body,img,p,h1,h2,h3,h4,h5,h6,ul,ol {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	border: none;
+	color: #5b5b5b;
+}
+
+p {
+	text-align: center;
+}
+.someRoom{
+	color: #fff;
+}
+.customLink {
+	cursor: pointer;
+	color: #8fb209;
+	font-weight: bold;
+}
+
+a:link,a:hover,a:visited,a:active {
+	color: #8fb209;
+}
+
+html {
+	overflow: -moz-scrollbars-vertical;
+}
+
+/*==============================
+	NOTIFICTION
+===============================*/
+#notiMessege {
+	display: none;
+	width: 250px;
+	height: 10px;
+}
+
+/*==============================
+	SITE WRAPPER
+===============================*/
+a img {
+	border: none;
+}
+
+li {
+	float: left;
+	list-style-type: none;
+	display: inline;
+}
+
+img.styled:hover {
+	-moz-box-shadow: 0 0 8px lightblue;
+	-webkit-box-shadow: 0 0 8px lightblue;
+	box-shadow: 0 0 8px lightblue;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background-color: #8fb209;
+	font-family: "Calibri", Arial;
+	margin: 50px 0px 25px 0px;
+	padding: 0px;
+}
+
+#site-wrapper {
+	min-height: 970px;
+	min-width: 970px;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	background-color: #fdfaf6;
+	overflow: hidden;
+}
+
+#colpos {
+	float: left;
+	clear: both;
+	width: 970px;
+	min-width: 970px;
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: 20px;
+	border: 0px;
+	background-color: #fdfaf6;
+}
+
+#left_column {
+	float: left;
+	max-width: 650px;
+	postion: relative;
+	display: inline;
+	min-height: inherit;
+	margin: 10px 0px 0px 30px;
+	padding: 0px;
+	border: 0px;
+	clear: both;
+}
+
+#right_column {
+	float: right;
+	width: 150px;
+	position: block;
+	display: inline;
+	min-height: inherit;
+	margin: 10px 10px 10px 10px;
+	padding-left: 10px; `
+	border: 0px;
+}
+
+#header {
+	min-width: 970px;
+	width: 100%;
+	height: 160px;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	background: #fff url('img/bgHead.png') bottom left;
+	background-repeat: repeat-x;
+}
+
+/*==============================
+	Header
+===============================*/
+#logo {
+	float: left;
+	margin: 0px 550px 0px 0px;
+	clear: both;
+}
+
+img#logo {
+	float: left;
+	display: block;
+	margin-left: 20%;
+	margin-right: 20px;
+	clear: both;
+}
+
+#links {
+	float: left;
+	display: inline;
+	width: 505px;
+	font-family: "Calibri", Arial;
+	color: #5b5b5b;
+	font-size: 1.3em;
+	margin-top: -40px;
+	margin-left: 58%;
+	clear: both;
+}
+
+#links a {
+	color: #5b5b5b;
+	padding: 0px 15px 0px 15px;
+	border-right: 2px solid #bbbbbb;
+}
+
+#links a#lastLink {
+	color: #5b5b5b;
+	border: none;
+}
+
+#links a#lastLink2{
+	color: #5b5b5b;
+	border: none;
+	border-left: 2px solid #bbbbbb;
+}
+
+a.divider {
+	min-height: 72px;
+	width: 10px;
+	background: url('img/divider.gif');
+	background-repeat: repeat-y;
+	margin: 0px 15px 0px 15px;
+}
+
+/*==============================
+	Main
+===============================*/
+.gwt-textBox-redLine {
+	
+}
+
+.gwt-textBox,.gwt-textBoxR,.gwt-textBoxG {
+	color: #999999;
+	padding: 8px;
+	margin: 2px 0px 2px 0px;
+	border: solid 1px #E5E5E5;
+	font: normal 12px Verdana, Tahoma, sans-serif;
+	height: 12px;
+	width: 200px;
+	background: #FFFFFF url('images/form_background.png') left top repeat-x;
+	/*Mimic Background Property in Internet Explorer since IE 6,7,8 does not support CSS3*/
+	background: -webkit-gradient(linear, left top, left 10, from(#fdfdfd),
+		color-stop(4%, #EEEEEE), to(#FFFFFF) );
+	background: -moz-linear-gradient(top, #fdfdfd, #F7F7F7 1px, #FFFFFF 10px);
+	box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 8px;
+	/*0.1 actually means 10 %*/
+	-moz-box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 2px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 2px;
+}
+
+.gwt-textBoxR {
+	border: 1px solid #ff0000;
+}
+
+.gwt-textBoxG {
+	border: 1px solid #8fb209;
+}
+
+.gwt-Button {
+	clear: both;
+	width: auto;
+	height: auto;
+	padding: 6px 10px;
+	background: #fdfaf6;
+	font-size: 12px;
+	color: #5b5b5b;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	cursor: pointer;
+	background: -webkit-gradient(linear, left top, left 10, from(#fdfdfd),
+		color-stop(4%, #EEEEEE), to(#FFFFFF) );
+	background: -moz-linear-gradient(top, #fdfdfd, #F7F7F7 1px, #FFFFFF 10px);
+	box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 8px;
+	/*0.1 actually means 10 %*/
+	-moz-box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 2px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 2px;
+}
+
+#main {
+	float: left;
+	height: inherit;
+	min-height: 450px;
+	min-width: 825px;
+	padding: 1.25em 1.25em;
+	margin: 10px 20px 10px 10px;
+	text-align: left;
+	line-height: 2em;
+	color: #5b5b5b;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	background: #fff url('images/background.png');
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 8px; /*0.1 actually means 10 %*/
+	-moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 8px;
+}
+
+#menu {
+	float: left;
+	min-width: 220px;
+	min-height: 150px;
+	margin: 10px 10px 30px 100px;
+	padding: 1.25em 1.25em 1.25em 1.25em;
+	text-align: left;
+	line-height: 2em;
+	color: #5b5b5b;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	background: #fff;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 8px; /*0.1 actually means 10 %*/
+	-moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 8px;
+}
+
+.sendButton {
+	display: block;
+	font-size: 16pt;
+}
+
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+	width: 400px;
+}
+
+.gwt-TabBar .gwt-TabBarItem-selected {
+	background: none repeat scroll 0 0 #8FB209;
+}
+
+.gwt-TabBar .gwt-TabBarItem {
+	background: none repeat scroll 0 0 #c7f41c;
+}
+
+.gwt-TabPanelBottom {
+	border-color: #8FB209;
+	border-style: solid;
+	border-width: 3px 2px 2px;
+	overflow: hidden;
+	padding: 6px;
+}
+
+.dialogVPanel {
+	margin: 5px;
+}
+
+.serverResponseLabelError {
+	color: red;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+	margin: 15px 6px 6px;
+}
+
+.marginfix {
+	margin-left: 2px;
+}
+
+/*==============================
+	Zoeken
+===============================*/
+.aanbieding {
+	float: left;
+	max-width: 280px;
+	min-width: 240px;
+	max-height: 280px;
+	min-height: 240px;
+	margin: 10px;
+	padding: 5px;
+	color: #5b5b5b;
+	font-size: .8em;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	background: #fff;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 8px; /*0.1 actually means 10 %*/
+	-moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 8px;
+}
+
+.aanbiedingNaam {
+	text-align: center;
+	color: #8fb209;
+	font-size: 1.2em;
+}
+
+.gwt-ButtonBieden {
+	float: right;
+	display: block;
+	postion: absolute;
+	bottom: 0px;
+	clear: both;
+	width: auto;
+	height: auto;
+	margin-bottom: 2px;
+	padding: 6px 10px;
+	background: #fdfaf6;
+	font-size: 12px;
+	color: #5b5b5b;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	cursor: pointer;
+	background: -webkit-gradient(linear, left top, left 10, from(#fdfdfd),
+		color-stop(4%, #EEEEEE), to(#FFFFFF) );
+	background: -moz-linear-gradient(top, #fdfdfd, #F7F7F7 1px, #FFFFFF 10px);
+	box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 8px;
+	/*0.1 actually means 10 %*/
+	-moz-box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 2px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 2px;
+}
+
+.straat {
+	width: 113px;
+}
+
+.nummer {
+	width: 30px;
+	margin-left: 8px;
+}
+
+.menu {
+	padding-right: 10px;
+	border-right: 1px;
+	border-right-style: solid;
+	border-color: #5B5B5B;
+}
+
+.content {
+	margin-left: 16px;
+	margin-top: -4px;
+}
+
+/*==============================
+	Bieden
+===============================*/
+.bieding {
+	float: left;
+	width: 490px;
+}
+
+.recenteBiedingen {
+	float: right;
+	width: 240px;
+	height: 70px;
+}
+
+.recenteBiedingen .even {
+	background-color: #fff;
+}
+
+.recenteBiedingen .odd {
+	background-color: #eee;
+}
+
+/*==============================
+	Blokkeren
+===============================*/
+.tableCell-odd {
+	background-color: #eee;
+}
+
+.flexTable {
+	background-color: #fff;
+	background: #fff;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 8px; /*0.1 actually means 10 %*/
+	-moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 8px;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 8px;
+}
+
+.tableHeader {
+	font-weight: bold;
+	border-bottom: 1px solid #eee;
+}
+
+.blockKnop, .unblockKnop, .unblockProdKnop{
+	height: 27px;
+	width: 28px;
+	background-image: url('img/block.png');
+	background-repeat: no-repeat;
+}
+.unblockKnop{
+	background-image: url('img/unblock.png');
+}
+.unblockProdKnop{
+	background-image: url('img/unblockProd.png');
+}
+
+.infoKnop{
+	height: 27px;
+	width: 28px;
+	background-image: url('img/info.png');
+	background-repeat: no-repeat;
+}
+/*==============================
+	Statistiek
+===============================*/
+.info {
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 8px;
+	width: 320px;
+	position: relative;
+	right: -70px;
+}
